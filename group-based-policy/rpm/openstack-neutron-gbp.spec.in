@@ -44,8 +44,8 @@ gbp-db-manage --config-file /etc/neutron/neutron.conf upgrade head
 %doc LICENSE
 %doc README.rst
 %doc etc/grouppolicy.ini
-%doc usr/bin/nfp
-%doc usr/bin/nfp_proxy
+%{_bindir}/nfp
+%{_bindir}/nfp_proxy
 %{_bindir}/gbp-db-manage
 %{python2_sitelib}/gbpservice
 %{python2_sitelib}/group_based_policy*.egg-info
